@@ -29,6 +29,12 @@ Use `dist/iden.js` or `dist/iden.min.js` (minified version).
 
 ## Usage <a name="usage"></a> [&#x2191;](#start)
 
+### ECMAScript 6
+
+```js
+import * as iden from 'iden';
+```
+
 ### Node
 
 ```js
