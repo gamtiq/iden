@@ -1,0 +1,18 @@
+{
+    "env": {
+        "mocha": true,
+        "node": true
+    },
+    "extends": [
+        "guard/optimum"
+    ],
+    "parserOptions": {
+        "sourceType": "script"
+    },
+    "rules": {
+        "quotes": [
+            "error",
+            "double"
+        ]
+    }
+}

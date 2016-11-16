@@ -1,0 +1,28 @@
+{
+  "name": "iden",
+  "repository": "gamtiq/iden",
+  "description": "Unique identifier generator.",
+  "version": "0.1.0",
+  "keywords": [
+    "unique",
+    "id",
+    "identifier",
+    "uuid",
+    "uid",
+    "rfc4122",
+    "random",
+    "create",
+    "produce",
+    "generate",
+    "generator",
+    "generation",
+    "get"
+  ],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "dist/iden.js",
+  "scripts": [
+    "dist/iden.js"
+  ]
+}

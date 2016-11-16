@@ -1,0 +1,36 @@
+{
+  "name": "iden",
+  "main": [
+    "dist/iden.js", 
+    "dist/iden.min.js"
+  ],
+  "version": "0.1.0",
+  "homepage": "https://github.com/gamtiq/iden",
+  "authors": [
+    "Denis Sikuler"
+  ],
+  "description": "Unique identifier generator.",
+  "keywords": [
+    "unique",
+    "id",
+    "identifier",
+    "uuid",
+    "uid",
+    "rfc4122",
+    "random",
+    "create",
+    "produce",
+    "generate",
+    "generator",
+    "generation",
+    "get"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
