@@ -24,7 +24,7 @@ exports.getUuid = getUuid;
 var globalObj = Function("return this")();
 
 /**
- * Generate unique identifier (UUID as described in RFC 4122 version 4, see https://en.wikipedia.org/wiki/Universally_unique_identifier)
+ * Generate unique identifier (UUID as described in RFC 4122 version 4, see [Universally unique identifier](https://en.wikipedia.org/wiki/Universally_unique_identifier))
  * and return its value.
  *
  * @param {Object} [settings]
@@ -33,13 +33,11 @@ var globalObj = Function("return this")();
  *     
  *   * `rng`: `Function` (`Math.random`) - random number generator that should be used;
  *      the generator should produce values from [0, 1).
- *   * `shift`: `Boolean, Number` (false) - whether 'shift' should be used when calculating random numbers;
+ *   * `shift`: `Boolean, Number` (`false`) - whether 'shift' should be used when calculating random numbers;
  *      numerical value is used as 'shift' as is; if boolean value `true` is set, then current time is used
  *      to determine a 'shift' value.
  * @return {string}
  *      Generated UUID.
- * @method
- * @alias iden.getUuid
  */
 function getUuid(settings) {
     /* eslint-disable no-magic-numbers, prefer-const */

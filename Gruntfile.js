@@ -103,11 +103,8 @@ module.exports = function(grunt) {
             minify: {
                 files: [
                     {
-                        expand: true,
-                        cwd: "<%= destDir %>/",
-                        src: "<%= srcFiles %>",
-                        dest: "<%= destDir %>/",
-                        ext: ".min.js"
+                        src: "<%= destDir %>/<%= name %>.js",
+                        dest: "<%= destDir %>/<%= name %>.min.js"
                     }
                 ]
             }
