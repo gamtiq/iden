@@ -4,7 +4,7 @@
     "dist/iden.js", 
     "dist/iden.min.js"
   ],
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/gamtiq/iden",
   "authors": [
     "Denis Sikuler"
